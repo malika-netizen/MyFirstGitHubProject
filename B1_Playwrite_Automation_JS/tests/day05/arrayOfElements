@@ -1,0 +1,9 @@
+
+
+
+test('erify that there are exactly 50 link elements which in the <ul> tag', async ({ page }) => {
+
+    await page.goto(`${process.env.LC_PRACTICE_BASE_URL}`); 
+    await page.waitForTimeout(3000); 
+
+});
